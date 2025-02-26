@@ -17,7 +17,7 @@
         alt="icon chevron left"
       />
     </button>
-    <div class="absolute inset-0 flex items-center justify-center px-4 mt-[15.5rem] md:mt-0">
+    <div class="absolute inset-0 flex items-center justify-center px-4 mt-[5.5rem] md:mt-0">
       <div class="relative">
         <div
           class="w-full max-w-[25.75rem] h-[500px] flex items-center justify-center relative pb-6 px-4 md:px-0"

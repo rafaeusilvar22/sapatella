@@ -10,6 +10,7 @@
         />
         <div class="flex gap-4">
           <img
+            class="cursor-pointer"
             v-for="icon in storeData.footer[0].icons"
             :key="icon.icon"
             :src="icon.icon"

@@ -1,6 +1,5 @@
 <template>
-  <nav class="fixed top-0 left-0 right-0 z-50"
-   style="background: linear-gradient(180deg, #161616 0%, rgba(22, 22, 22, 0.00) 100%);"
+  <nav class="fixed top-0 left-0 right-0 z-50 sap-bg-navbar"
    >
       <div class="flex flex-col 3xl:flex-row items-center justify-center py-4 gap-4 3xl:gap-0">
         <img
@@ -9,7 +8,7 @@
           alt="logo marca"
         />
 
-        <div class="flex gap-8 mx-[2.94rem]">
+        <div class="gap-8 mx-[2.94rem] hidden md:flex">
           <div
             v-for="section in storeData.header.sections"
             :key="section.name"
@@ -20,7 +19,7 @@
           </div>
         </div>
 
-        <div class="flex items-center gap-6">
+        <div class="items-center gap-6 hidden md:flex">
           <input-search />
 
           <div class="flex gap-6">
