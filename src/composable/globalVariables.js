@@ -63,7 +63,7 @@ export const storeData = {
       image: '/images/webp/page/image_2_4_section.webp'
     },
     2: {
-      title: 'Tenis',
+      title: 'Tênis',
       description: 'Os tênis femininos se tornaram um item básico na moda e nos calçados do dia a dia.',
       button: 'Conferir',
       image: '/images/webp/page/image_3_4_section.webp'
