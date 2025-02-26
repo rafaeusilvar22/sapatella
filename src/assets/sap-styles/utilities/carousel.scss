@@ -1,0 +1,103 @@
+.sap-carousel-1-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  overflow: scroll;
+  scrollbar-width: none;
+  gap: 20px;
+  cursor: grab;
+  user-select: none;
+  /* Impede a seleção do texto */
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+}
+
+.sap-carousel-1-section:active {
+  cursor: grabbing;
+}
+
+.sap-navigation-carousel {
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  transform: translateY(-50%);
+  background: #ffff;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 999px;
+
+  &:hover{
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  &::after {
+    content: '';
+  }
+}
+
+// start main carousel
+.sap-main-carousel-custom-prev, 
+.sap-main-carousel-custom-next{
+  @extend .sap-navigation-carousel;
+  display: flex;
+  align-items: center;
+}
+
+// start carousel product
+.sap-carousel-product-container {
+  position: relative;
+  width: 100%;
+}
+
+.sap-carousel-custom-prev,
+.sap-carousel-custom-next {
+  position: absolute;
+  top: 40%;
+  @extend .sap-navigation-carousel 
+ 
+
+}
+
+.sap-carousel-custom-prev {
+  left: calc(-2.5rem - -22px);
+}
+
+.sap-carousel-custom-next {
+  right: calc(-2.5rem - -22px);
+}
+
+.sap-custom-swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.swiper-pagination {
+  margin-top: 500px;
+}
+
+.custom-bullet {
+  width: 8px!important;
+  height: 8px !important;
+  background-color: #ccc;
+  border-radius: 0!important;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #CF215B !important;
+  width: 12px !important;
+  transform: scale(1.2);
+}
+
+// end carousel product

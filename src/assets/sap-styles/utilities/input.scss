@@ -1,0 +1,18 @@
+.sap-search-input{
+  border: 1px solid theme('colors.secondary.300'); 
+  color: theme('colors.secondary.600');
+  opacity: 0.3;
+  width: 14.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+
+  &::placeholder {
+    color: theme('colors.secondary.300'); 
+    opacity: 1;
+  }
+
+  &:focus-visible{
+    opacity: 1;
+    outline: none; 
+  }
+}

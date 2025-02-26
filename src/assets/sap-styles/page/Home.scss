@@ -1,0 +1,55 @@
+.sap-constrain-container-1168 {
+  width: 100%;
+  max-width: 1168px;
+  margin: 0 auto;
+}
+
+.sap-text-fourth-section-container-text{
+  width: 100%;
+  max-width: 228px
+}
+
+.sap-image-4-2-section {
+  width: 100%;
+  max-width: 23.5rem;
+}
+
+.sap-image-4-1-section {
+  width: 100%;
+  max-width: 23.5rem;
+}
+
+.sap-image-4-0-section {
+  width: 100%;
+  max-width: 23.5rem;
+}
+
+.sap-7-section-image {
+  width: 100%;
+  max-width: 23.5rem;
+  height: 20rem;
+  flex-shrink: 0
+}
+
+.sap-7-section-block-image-behind {
+  @extend .sap-7-section-image;
+  background-color: theme('colors.secondary.100');
+  position: absolute;
+  z-index: -1;
+  top: 1.25rem;
+  left: 1.25rem;
+}
+
+.sap-image-5-section-image {
+  width: 100%;
+  max-width: 37.125rem;
+}
+
+
+.sap-select-a-size-card-product {
+  border-top: 1px solid var(--Black-03, #d3d3d3);
+  background: rgba(231, 234, 225, 0.25);
+  backdrop-filter: blur(5px);
+  gap: 1px;
+  padding-top: 5px;
+}

@@ -1,0 +1,18 @@
+@use "./utilities/input.scss";
+@use "./utilities/carousel.scss";
+@use "./utilities/typography.scss";
+@use "./utilities/transition.scss";
+@use "./page/Home.scss";
+
+
+@font-face {
+  font-family: "DM Sans";
+  src: url("src/assets/sap-styles/font/DM_Sans/DMSans-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
+body {
+  margin: 0 auto;
+  font-family: "DM Sans", sans-serif;
+  width: 100%;
+  max-width: 1920px;
+}
